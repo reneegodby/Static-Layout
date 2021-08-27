@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 
-    <title>Static Layout</title>
-  </head>
-  <body>
-    <div class="background1">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+
+  <title>Static Layout</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="background1">
+    <header>
       <div class="heading">
-        <img id="logo" src="/assets/wizarding-world-logo-wizarding-world-logo-png.png">></img>
-        <button id="login">Login</button>
+        <img id="logo" src="/assets/wizarding-world-logo-wizarding-world-logo-png.png"></img>
+        <!--Button -->
+        <button id="login"><a href="http://" target="_blank">Login</a></button>
       </div>
+      <!-- Nav Bar -->
       <div class="navigation">
         <nav class="nav-bar">
           <ul>
@@ -34,43 +40,79 @@
           </ul>
         </nav>
       </div>
-      <div>
-         <div class="intro-img">
-            <img id="banner-img" src="./assets/harrypotter-fantasticbeasts.webp" alt="">
-          </div>
-          
-          <h1 class="intro-headline">
-          Celebrate 20 years of the <br>first film, Harry Potter and <br> the Philosopher's Stone</h1>
-          
-          <p class="intro-description">Join us for 20 Years of Movie Magic as we explore iconic <br>moments from
-          the first film over the upcoming weeks and <br> months. Expect a new moment to be revealed every <br> Wednesday!</p>
-          
-          <div class="intro-button">
-            <button id="more">Read More</button>
-          </div>
-
-          <h3>place holder for arrow thing</h3>
+    </header>
+    <!-- First Section -->
+    <div class="section1">
+      <div class="intro-img">
+        <img id="banner-img" src="./assets/harrypotter-fantasticbeasts.webp" alt="">
       </div>
-    </div>           
-        <div class="slider">
-          <div class="slide1">
-            <a href="" target="_blank">
-            <img src="./assets/img1slide.png" alt=""/></a>
-            <h2>Feature</h2>
-            <p>Graphic design team <br> MinaLima explain <br> how they made the <br> Hogwarts letter <br>prop</p>
-          </div>
-          <div class="slide2">
-            <a href="" target="_blank">
-            <img src="./assets/img2slide.jfif" alt=""/></a>
-            <h2>Feature</h2>
-            <p>Which of the <br> Triwizard <br> Tournament <br> champions are you <br> most like?</p>
-          </div>
-          <div class="slide3">
-            <a href="" target="_blank">
-            <img src="assets/img3slide.webp" alt=""/></a>
-            <h2>News</h2>
-            <p>Warner Bros. Studio <br> Tour London's Dark <br> Arts feature to <br> return in September</p>
-          </div>
+
+      <h1 class="intro-headline">
+        Celebrate 20 years of the <br>first film, Harry Potter and <br> the Philosopher's Stone</h1>
+
+      <p class="intro-description">Join us for 20 Years of Movie Magic as we explore iconic <br>moments from
+        the first film over the upcoming weeks and <br> months. Expect a new moment to be revealed every <br> Wednesday!
+      </p>
+      <!-- Button -->
+      <div class="intro-button">
+        <button id="more"><a href="http://" target="_blank">Read More</a></button>
+      </div>
+
+      <!-- Shape- -->
+      <div class="rectangleshape">
+        <img
+          src="./assets/kisspng-rhombus-shape-diamond-parallelogram-clip-art-parallelogram-free-material-high-definition-map-5aa8b7e992eca0.7469608815210065696018.png"
+          id="diamond" alt="">
+      </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="section2">
+      <div class="slide">
+        <a href="" target="_blank">
+          <img class="sliderimg" src="./assets/img1slide.png" alt="" /></a>
+        <div class="words">
+          <h2 class="slidetitle">Feature</h2>
+          <p class="slidep">Graphic design team <br> MinaLima explain <br> how they made the <br> Hogwarts letter
+            <br>prop
+          </p>
         </div>
-  </body>
+      </div>
+      <div class="slide">
+        <a href="" target="_blank">
+          <img class="sliderimg" src="./assets/img2slide.jfif" alt="" /></a>
+        <div class="words">
+          <h2 class="slidetitle">Feature</h2>
+          <p class="slidep">Which of the <br> Triwizard <br> Tournament <br> champions are you <br> most like?</p>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="" target="_blank">
+          <img class="sliderimg" src="assets/img3slide.webp" alt="" /></a>
+        <div class="words">
+          <h2 class="slidetitle">News</h2>
+          <p class="slidep">Warner Bros. Studio <br> Tour London's Dark <br> Arts feature to <br> return in September
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Section 3 -->
+    <div class="section3">
+      <img id="overlay" class="pinimg" src="./assets/hogwartsbutton.jpg" alt="">
+      <div class="moveme">
+        <h1 class="sect3header">Seek the<br>Hogwarts<br>Express 2021<br>pin</h1>
+        <p class="moreWords">All aboard! Get ready to seek the new Hogwarts Express<br> 2021 enamel pin, coming soon
+          to
+          the Harry Potter
+          Shop. <br> Subject to availability, while stocks last.</p>
+        <!-- Button -->
+        <div class="pinButton">
+          <button id="learnMore"><a href="http://" target="_blank">Learn More</a></button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
